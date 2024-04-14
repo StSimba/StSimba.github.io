@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Santeri Perä">
-    <meta name="description" content="Portfolio of Santeri Perä">
-    <title> Perä Santeri Portfolio </title>
-    <link rel="icon" type="image/x-icon" href="Pictures/Liejuna.png"
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="Styles_Mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles_Desktop.css">
-    <script>
-      // Function to detect if the device is a mobile device
-      function isMobileDevice() {
-        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  <meta charset="UTF-8">
+  <meta name="author" content="Santeri Perä">
+  <meta name="description" content="Portfolio of Santeri Perä">
+  <title> Perä Santeri Portfolio </title>
+  <link rel="icon" type="image/x-icon" href="Pictures/Liejuna.png" <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="Styles_Mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles_Desktop.css">
+  <script>
+    // Function to detect if the device is a mobile device
+    function isMobileDevice() {
+      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    }
+
+    // Function to load different CSS based on device type
+    function loadCSS() {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      if (isMobileDevice()) {
+        link.href = 'styles_mobile.css'; // Path to your mobile CSS file
+      } else {
+        link.href = 'Styles_Desktop.css'; // Path to your desktop CSS file
       }
-  
-      // Function to load different CSS based on device type
-      function loadCSS() {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        if (isMobileDevice()) {
-          link.href = 'styles_mobile.css'; // Path to your mobile CSS file
-        } else {
-          link.href = 'Styles_Desktop.css'; // Path to your desktop CSS file
-        }
-        document.head.appendChild(link);
-      }
-  
-      // Call the loadCSS function to load appropriate CSS
-      loadCSS();
-    </script>
-  </head>
+      document.head.appendChild(link);
+    }
+
+    // Call the loadCSS function to load appropriate CSS
+    loadCSS();
+  </script>
+</head>
+
 <body>
 
   <div id="ContentWrapper" class="ContentWrapper">
 
     <div id="About me" class="ruutu">
       <h2>About me</h2>
-      <a href="/Alasivut/About/index.html" >About Me</a>
+      <a href="/Alasivut/About/index.html">About Me</a>
     </div>
-    
+
     <div id="Games" class="ruutu">
-    <h2>Games</h2>
-    <a href="/Alasivut/Games/index.html">List of games i have been a part of</a>
+      <h2>Games</h2>
+      <a href="/Alasivut/Games/index.html">List of games i have been a part of</a>
     </div>
 
     <div id="Other Projects" class="ruutu">
-    <h2>Other Projects</h2>
-    <a href="/Alasivut/Projects/index.html">Other Projects I'm working on</a>
+      <h2>Other Projects</h2>
+      <a href="/Alasivut/Projects/index.html">Other Projects I'm working on</a>
     </div>
-    
+
     <div id="Contact Me" class="ruutu">
       <h2>Contact Me</h2>
-      <a href="/Alasivut//Contact/index.html">Contact me in case of issues on the website, questions or proposals</a> 
-      </div>
+      <a href="/Alasivut//Contact/index.html">Contact me in case of issues on the website, questions or proposals</a>
+    </div>
 
     <div id="Verkkosivujen perusteet" class="ruutu">
       <h2>Verkkosivujen perusteet</h2>
@@ -64,4 +66,3 @@
 
 
   </div>
-    

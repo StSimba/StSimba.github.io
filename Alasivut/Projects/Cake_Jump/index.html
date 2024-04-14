@@ -8,8 +8,28 @@
   <title>Santeri Perä Portfolio</title>
   <link rel="icon" type="image/x-icon" href="../../Pictures/Liejuna.png" <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="screen and (min-width: 720px)" href="Styles_Desktop.css">
-  <link rel="stylesheet" media="screen and (max-width: 720px)" href="styles_mobile.css" </head>
+  <script>
+    // Function to detect if the device is a mobile device
+    function isMobileDevice() {
+      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    }
+
+    // Function to load different CSS based on device type
+    function loadCSS() {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      if (isMobileDevice()) {
+        link.href = 'styles_mobile.css'; // Path to your mobile CSS file
+      } else {
+        link.href = 'Styles_Desktop.css'; // Path to your desktop CSS file
+      }
+      document.head.appendChild(link);
+    }
+
+    // Call the loadCSS function to load appropriate CSS
+    loadCSS();
+  </script>
+</head>
 
 <body>
 

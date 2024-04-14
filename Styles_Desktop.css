@@ -23,26 +23,20 @@ p{
 }
 
 .ContentWrapper{
-  display: grid;
+  display: flexbox;
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 5%;
   padding-right: 5%;
-  grid-template-columns: 25% 25% 25% 25%;
   background-color: #303030;
 }
 
 .ruutu {
+  margin: auto;
+  margin-bottom: 5%;
+  max-width: 50%;
   text-align: center;
   background-color: #232423;
-  margin: 5% 5%; /* Use auto for horizontal margin to center the element */
   padding: 30px; /* Use a fixed padding value */
   border-radius: 5%;
-}
-
-.cake{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
 }
