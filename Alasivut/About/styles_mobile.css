@@ -73,17 +73,3 @@ h2 {
 h3 {
     color: #FF80FF;
 }
-
-/* Media query for devices with a maximum width of 768px (typically mobile devices) */
-@media screen and (max-width: 768px) {
-    .text {
-        padding: 0; /* Remove left and right padding */
-    }
-
-    .advanced,
-    .basic {
-        width: 100%; /* Set width to 100% for full width on mobile */
-        display: block; /* Change display to block for stacked layout on mobile */
-        margin-bottom: 20px; /* Add margin for spacing between sections */
-    }
-}
