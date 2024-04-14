@@ -14,19 +14,17 @@
       return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
     }
 
-    // Function to load different CSS based on device type
     function loadCSS() {
       var link = document.createElement('link');
       link.rel = 'stylesheet';
       if (isMobileDevice()) {
-        link.href = 'styles_mobile.css'; // Path to your mobile CSS file
+        link.href = 'styles_mobile.css'; 
       } else {
-        link.href = 'Styles_Desktop.css'; // Path to your desktop CSS file
+        link.href = 'Styles_Desktop.css';
       }
       document.head.appendChild(link);
     }
 
-    // Call the loadCSS function to load appropriate CSS
     loadCSS();
   </script>
 </head>
