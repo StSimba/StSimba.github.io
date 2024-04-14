@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+#ContentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Lomake{
+    padding: 2%;
+ }
+
+#otsikko{
+    font-size: 45px;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texti{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Username{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Password{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Persistant{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Signin{
+    padding-left: 4px;
+    width: 75px;
+    height: 28px;
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+#Signin:hover {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+#cantlogin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}

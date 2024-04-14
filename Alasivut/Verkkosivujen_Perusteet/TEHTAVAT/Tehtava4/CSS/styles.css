@@ -1,0 +1,38 @@
+/* Author: Santeri Pera
+    Date: 1.2.2024 */
+body{
+    background-color:  #1c2833
+}
+
+
+table{
+    width: 600px;
+    background-color: white;
+}
+
+table, th, td{
+
+    border: 1px solid black;
+}
+
+th{
+    text-align: left;
+}
+
+img{
+    
+    height: 100px;
+    width: 100px;
+}
+
+#Turkoosi{
+    background-color: #00ffff;
+}
+
+#harmaa{
+    background-color: #334562;
+}
+
+#sininen{
+    background-color: blue;
+}
