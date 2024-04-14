@@ -1,0 +1,38 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    background-color: #313131;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: #ff00ff;
+}
+
+a{
+    color: #00ffff;
+}
+
+p{
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 5%;
+}
+
+.ruutu {
+    background-color: #232423;
+    padding: 15%;
+    margin: 5%;
+    border-radius: 5%;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

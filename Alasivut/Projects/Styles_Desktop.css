@@ -31,3 +31,8 @@ p{
     margin: 5%;
     border-radius: 5%;
 }
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

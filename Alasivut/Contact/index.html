@@ -8,32 +8,37 @@
   <title> Perä Santeri Portfolio </title>
   <link rel="icon" type="image/x-icon" href="../../Pictures/Liejuna.png" <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="Styles_Mobile.css">
-  <link rel="stylesheet" media="screen and (min-width: 768px)" href="Styles_Desktop.css">
   <script>
-    // Function to detect if the device is a mobile device
     function isMobileDevice() {
       return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
     }
 
-    // Function to load different CSS based on device type
     function loadCSS() {
       var link = document.createElement('link');
       link.rel = 'stylesheet';
       if (isMobileDevice()) {
-        link.href = 'styles_mobile.css'; // Path to your mobile CSS file
+        link.href = 'styles_mobile.css';
       } else {
-        link.href = 'Styles_Desktop.css'; // Path to your desktop CSS file
+        link.href = 'Styles_Desktop.css';
       }
       document.head.appendChild(link);
     }
-
-    // Call the loadCSS function to load appropriate CSS
     loadCSS();
   </script>
 </head>
 
 <body>
+
+  <div id="navbar" class="navbar">
+    <ul>
+     <li><a href="/index.html">Home</a></li>
+     <li><a href="/Alasivut/About/index.html">About</a></li>
+     <li><a href="/Alasivut/Projects/index.html">Projects</a></li>
+     <li><a href="/Alasivut/Games/index.html">Games</a></li>
+     <li><a href="/Alasivut/Contact/index.html">Contact</a></li>
+    </ul>
+  </div>
+
   <div id="ContentWrapper" class="contact">
 
     <h2>Contact Me</h2>

@@ -32,3 +32,8 @@ p{
     border-radius: 10%;
     background-color: #232423;
 }
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

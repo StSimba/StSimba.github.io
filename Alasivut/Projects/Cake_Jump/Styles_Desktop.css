@@ -45,12 +45,7 @@ p{
 
 }
 
-.taidot {
-    width: 100%;
-    text-align: center;
-}
 
-.advanced,
 .basic {
     display: inline-block;
     width: 45%;
@@ -74,4 +69,9 @@ h2 {
 
 h3 {
     color: #FF80FF;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
