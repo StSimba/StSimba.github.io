@@ -42,7 +42,7 @@ p {
   max-width: 50%;
   text-align: center;
   background-color: #232423;
-  padding: 30px; /* Use a fixed padding value */
+  padding: 30px;
   border-radius: 5%;
 }
 
@@ -63,12 +63,20 @@ p {
   padding: 20px;
 }
 
+.kakkukuva {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(/Pictures/Cake_Jump.png);
+}
+
 .image {
   margin: 5px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url(../../Pictures/Nassukka_Smol.png);
+  background-image: url(/Pictures/Nassukka_Smol.png);
 }
 
 .text {
