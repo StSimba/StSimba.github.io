@@ -4,25 +4,30 @@ body {
   background-color: #313131;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-h1{
+h1 {
   color: white;
+  font-size: larger;
 }
 
-h2{
+h2 {
   color: #ff00ff;
+  font-size: larger;
 }
 
-a{
+a {
   color: #00ffff;
+  font-size: larger;
 }
 
-p{
+p {
+  font-size: larger;
   color: white;
 }
 
-.ContentWrapper{
+.ContentWrapper {
   display: flexbox;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -40,8 +45,71 @@ p{
   padding: 30px; /* Use a fixed padding value */
   border-radius: 5%;
 }
-.navbar{
+
+.wrapper {
+  text-align: center;
+  margin: 5%;
+}
+
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../../Pictures/Nassukka_Smol.png);
+}
+
+.text {
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 1.6;
+  color: #c0c0c0;
+}
+
+.basic,
+.advanced {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+h1,
+h2 {
+  color: #00FFFF;
+  margin-top: 0;
+}
+
+h3 {
+  color: #FF80FF;
+}
+
+.contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  border-radius: 10%;
+  background-color: darkgray;
 }
