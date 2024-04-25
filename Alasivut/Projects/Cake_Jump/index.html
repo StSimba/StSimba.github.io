@@ -9,6 +9,7 @@
   <link rel="icon" type="image/x-icon" href="../../Pictures/Liejuna.png" <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
 
+  <!--Funkio jonka tarkoituksena olisi tunnistaa laite ja muuttaa sivusto mobiiliversioksi tai työpöytäversioksi-->    
   <script>
     function isMobileDevice() {
       return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
@@ -44,7 +45,8 @@
 
   <div id="content-wrapper">
 
-    <div id="kuva" class="kakkukuva"></div>
+    <!--Kommentoitu rikkinäinen elementti pois-->
+    <!-- <div id="kuva" class="kakkukuva"></div> !-->
 
     <div id="tiedot" class="text">
 
@@ -70,6 +72,7 @@
 
       <h3>Demo video:</h3>
 
+      <!--Upotettu youtube video-->
       <iframe width="625" height="350" src="https://www.youtube.com/embed/Ap5zYJSFaRQ" title="Cake Jump Demo"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

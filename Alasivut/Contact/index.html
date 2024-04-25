@@ -9,23 +9,26 @@
   <link rel="icon" type="image/x-icon" href="../../Pictures/Liejuna.png" <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
     
-  <script>
-    function isMobileDevice() {
-      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-    }
-
-    function loadCSS() {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      if (isMobileDevice()) {
-        link.href = '../../styles_mobile.css'; 
-      } else {
-        link.href = '../../Styles_Desktop.css';
+      <!--Funkio jonka tarkoituksena olisi tunnistaa laite ja muuttaa sivusto mobiiliversioksi tai työpöytäversioksi-->    
+    <script>
+      function isMobileDevice() {
+        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
       }
-      document.head.appendChild(link);
-    }
-    loadCSS();
-  </script>
+  
+      function loadCSS() {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        if (isMobileDevice()) {
+          link.href = '../../styles_mobile.css'; 
+        } else {
+          link.href = '../../Styles_Desktop.css';
+        }
+        document.head.appendChild(link);
+      }
+  
+      loadCSS();
+    </script>
+
 </head>
 
 <body>
